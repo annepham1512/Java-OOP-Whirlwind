@@ -5,6 +5,8 @@
 ## Introduction
 In the previous lab, you created several shapes that implemented the `Drawable` and `Scaleable` interfaces. You also implemented the `DrawableObjectList`, which was a collection of `Drawable` shapes. In this lab, you will use inheritance to implement a wider variety of shapes with less repetition of code. Specifically, you will implement and test classes named `Line`, `Text`, `Rectangle`, `Square`, `Ellipse`, and `Circle` that represent the corresponding objects.
 
+![Pong Game Screenshot](img/image.png)
+
 ## Getting Started
 1. Accept the assignment from GitHub Classroom, clone the repository, and import your project into Eclipse.
 2. Remove any compilation errors in the starter code by adding JUnit5 to your project’s build path.
