@@ -1,4 +1,4 @@
-# Java_OOP_Practice
+# Java_OOP_Whirlwind
 A collection of challenges related to Object-Oriented Programming (OOP) in Java, Data Structures and Algorithms, Game Programming, and more.
 
 # Lab #1 – Pong Game
