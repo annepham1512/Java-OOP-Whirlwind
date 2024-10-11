@@ -22,7 +22,7 @@ This project simulates a "virtual pet," or in this case, a "virtual pest," model
 
 This project simulates Darwin's World, a game where creatures inhabit a 2D world, interact, and evolve based on programmed behaviors. Each creature belongs to a species, which defines its color and actions. The goal is to design and program creatures that can survive and spread their species by infecting others.
 
-![Darwin's World Sample](lab03-annepham1512/img/image.png)
+![Darwin's World Sample](Darwin's_World/img/image.png)
 
 ---
 
