@@ -29,7 +29,7 @@ The project is structured as follows:
 
 Here’s an example of what the game looks like when running:
 
-![Pong Game Screenshot](img/image.png)
+![Drawable/Scaleable Shapes](img/image.png)
 
 ---
 ## Authors
