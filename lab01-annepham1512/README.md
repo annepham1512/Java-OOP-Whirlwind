@@ -73,6 +73,5 @@ Here’s an example of what the game looks like when running:
 ## Authors
 
 - @[annepham1512](https://github.com/annepham1512)
-- @CollaboratorName (if applicable)
 
 ---

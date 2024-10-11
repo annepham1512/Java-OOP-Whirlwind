@@ -90,7 +90,6 @@ JUnit tests must be created for both Part A and Part B:
 ## Authors
 
 - @[annepham1512](https://github.com/annepham1512)
-- @CollaboratorName (if applicable)
 
 ---
 
