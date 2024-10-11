@@ -46,9 +46,6 @@ Push your code (and data files) to GitHub regularly for backup purposes and push
 ## Additional Remark
 The code in this lab is an introduction to elementary techniques for reading data from files and manipulating that data. However, professional-quality code for managing data would usually employ a different approach, such as using a database rather than CSV files. The simple code provided here for reading CSV files is not robust. Please see the Wikipedia page on CSV files for some ideas on why the approach needs to be more sophisticated. In a future lab, we’ll work more “hands on” with file IO to get better practice figuring out exactly what our `FileReaders` are doing.
 
----
 ## Authors
 
 - @[annepham1512](https://github.com/annepham1512)
-
----
