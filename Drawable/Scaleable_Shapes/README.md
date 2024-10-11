@@ -27,7 +27,7 @@ The structure of the project includes:
 
 ## Example Game Screen
 
-Here’s an example of what the game or drawing looks like when running:
+Here’s an example of what the drawing looks like when running:
 
 ![Drawable/Scaleable Shapes](img/image.png)
 
