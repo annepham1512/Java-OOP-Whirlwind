@@ -66,4 +66,4 @@ In the previous lab, you created several shapes that implemented the `Drawable` 
 
 In this lab, you will be developing recursive definitions for several problems and then implementing those recursive definitions as Java programs.
 
-![The Sierpinski triangle](lab-08-annepham1512/img/image.png)
+![The Sierpinski triangle](Recursion/img/image.png)
