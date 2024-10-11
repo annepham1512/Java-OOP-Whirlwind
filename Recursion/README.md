@@ -23,8 +23,7 @@ I implemented a recursive program to generate the Sierpinski triangle, a fractal
 
 ![The Sierpinski triangle](img/image.png)
 
-## Submitting Your Solution
-I regularly pushed my code to GitHub for backup and submitted my final version of the assignment. Additionally, I submitted my lab report to Gradescope via the link on Moodle. The lab report consists of my self-assessment.
+
 
 ---
 
