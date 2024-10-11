@@ -1,61 +1,57 @@
 # Using the Singleton and Adapter Design Patterns
 
 ## Introduction
-This project explores two essential design patterns in software engineering: the Singleton and Adapter patterns. Additionally, it introduces the use of the `enum` keyword for defining enumerated types and demonstrates basic file reading techniques in Java using `BufferedReader`, `FileReader`, and `readLine()`.
+In this project, I explored two important software design patterns: the Singleton and Adapter patterns. The project also introduced me to the `enum` keyword for defining enumerated types and demonstrated basic file reading techniques in Java, such as using `BufferedReader`, `FileReader`, and `readLine()`.
 
-This lab provided an opportunity to build upon these concepts while working with real-world scenarios such as reading data from CSV files to model a music store database. I also received valuable support from the Dickinson College Computer Science faculty in completing this project.
+Through this lab, I was able to apply these concepts to real-world scenarios, such as reading data from CSV files and modeling a music store database. I completed this project with the support of the Dickinson College Computer Science faculty.
 
 ## Getting Started
-1. Clone the GitHub repository that was assigned through GitHub Classroom and import the starter code into Eclipse as a Java Project.
-2. Resolve any compilation issues by adding JUnit5 to the project’s build path.
+1. Clone the GitHub repository assigned through GitHub Classroom and import the starter code into Eclipse as a Java Project.
+2. Add JUnit5 to the project's build path to resolve any compilation issues.
 
 ## The Assignment
 
 ### Preliminaries
-First, I familiarized myself with the starter code:
-- I created a class diagram (for my own understanding) to illustrate the relationships among the different classes.
-- After reviewing the code in `ArtistData.java`, I ran its `main` method to understand the existing functionality.
-- I ran all JUnit tests to ensure everything was working correctly and explored the structure of each class.
+To begin, I explored the starter code and developed a class diagram to understand the relationships between the different classes. I then ran the `main` method in `ArtistData.java` to observe how the code worked and made sure to run all JUnit tests, confirming that the provided code was functioning correctly.
 
-Next, I examined the `data/bands.csv` and `data/singers.csv` files to understand how they represent band and singer data in CSV format.
+I reviewed the `data/bands.csv` and `data/singers.csv` files, which contained band and singer data in CSV format.
 
-**Task A:** I added new band data to the `bands.csv` file and included more singers in the `singers.csv` file. After running the `main` method in `ArtistData.java`, I confirmed that the newly added bands and singers were printed out correctly.
+**Task A:** I added my own data for a new band to the `bands.csv` file and updated the `singers.csv` file with additional singers. After running the `main` method in `ArtistData.java`, I verified that my additions were printed correctly.
 
 ### Implementing the Singleton Pattern
-To enhance the efficiency of the `ArtistData` class, I transformed it into a singleton. This modification ensures that the data files are only read once, and subsequent requests use the same instance of `ArtistData`.
+To improve the efficiency of the `ArtistData` class, I transformed it into a singleton, ensuring that the CSV files are read only once, even if multiple instances of `ArtistData` are created.
 
-**Task B:** I made the necessary changes across four Java files to implement the Singleton pattern. Afterward, I verified that all JUnit tests still passed successfully.
+**Task B:** I made the necessary changes across four Java files to implement the Singleton pattern. After implementing these changes, I re-ran the JUnit tests to ensure they all passed.
 
 ### Implementing the Adapter Pattern
-The original `ArtistData` class handled only bands and singers. To extend its functionality and also store data about classical composers, I used the Adapter design pattern. This allowed me to integrate a new data type for composers while ensuring that the existing `Composer.java` file remained unchanged.
+The `ArtistData` class initially handled only bands and singers. To extend its functionality and incorporate data about classical composers, I used the Adapter design pattern. This approach allowed me to introduce a new data type for composers without modifying the existing `Composer.java` file.
 
 **Task C:**
-1. I created an adapter class for the composers using a naming convention similar to that in the in-class examples.
-2. I wrote JUnit tests to ensure the new adapter class was functioning as expected.
-3. I modified `ArtistData.java` to read composer data from a new `data/composers.csv` file in addition to bands and singers.
-4. After running the `main` method in `ArtistData.java`, I verified that the composer data was printed correctly, and all JUnit tests passed.
+1. I created an adapter class for composers, following a naming convention similar to the examples provided in class.
+2. I wrote JUnit tests to validate the new adapter class.
+3. I modified `ArtistData.java` to read composer data from a new `data/composers.csv` file, alongside the existing band and singer data.
+4. After running the `main` method in `ArtistData.java`, I confirmed that the composer data was printed correctly, and all JUnit tests continued to pass.
 
 ---
 
 ## How to Run
 
 1. **Clone** this repository and import it into Eclipse as a Java Project.
-2. Add the `JUnit5` library to your build path if necessary.
-3. Add your custom band, singer, and composer data to the `data/bands.csv`, `data/singers.csv`, and `data/composers.csv` files.
-4. Run the `main` method in the `ArtistData.java` class.
-5. Observe the output, which includes data for bands, singers, and composers.
+2. Add the `JUnit5` library to your build path, if necessary.
+3. Update the `data/bands.csv`, `data/singers.csv`, and `data/composers.csv` files with your own band, singer, and composer data.
+4. Run the `main` method in `ArtistData.java` to see the output, which should include data for bands, singers, and composers.
 
 ---
 
 ## Submitting Your Solution
-To submit the assignment, I regularly pushed my code to GitHub as a backup. For the final submission, I pushed the complete version of my code and data files. Additionally, I submitted the self-assessment report through Moodle, as per the course requirements.
+For submission, I regularly pushed my code to GitHub for backup purposes. I pushed the final version of my code and data files to GitHub and submitted the self-assessment report through Moodle, as required.
 
 ---
 
 ## Additional Notes
-This project is an introduction to basic file I/O techniques and demonstrates how to apply design patterns in Java. While the approach taken to read CSV files is simple, it's not robust for real-world applications. A more sophisticated solution might involve a database system for managing large datasets.
+This project introduces basic file I/O techniques and showcases how to apply common design patterns in Java. Although the approach for reading CSV files is basic, professional software typically uses more robust solutions, such as databases, for managing large datasets.
 
-In future labs, I'll be diving deeper into file I/O for more hands-on experience with managing data.
+In future labs, I look forward to gaining more hands-on experience with file I/O and exploring more sophisticated approaches.
 
 ## Authors
 
