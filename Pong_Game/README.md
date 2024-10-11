@@ -1,4 +1,4 @@
-# Pong Game - Lab 01
+# Pong Game
 
 Welcome to the Pong Game project! This project is part of the Object-Oriented Programming Lab, and is designed to introduce fundamental concepts of object-oriented programming through the implementation of a classic Pong game.
 
@@ -51,3 +51,4 @@ Here’s an example of what the game looks like when running:
 - @[annepham1512](https://github.com/annepham1512)
 
 ---
+This project was completed with the support of the Dickinson College Computer Science faculty.
