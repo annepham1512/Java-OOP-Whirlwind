@@ -1,17 +1,17 @@
 # Darwin's World - Lab 03
 
-This project simulates Darwin's World, a game where creatures inhabit a 2D world, interact, and evolve based on programmed behaviors. Each creature belongs to a species, which defines its color and actions. The goal is to design and program creatures that can survive and spread their species by infecting others.
+This project simulates a game called Darwin's World, where creatures inhabit a 2D grid, interact with their environment, and evolve based on predefined behaviors. Each creature belongs to a species, which defines its color and actions. The goal of the simulation is to create species that can survive and spread by infecting other creatures.
 
 ---
 
 ## Overview
 
-Darwin's World is a grid-based simulation where creatures follow programs based on their species. The simulation proceeds in turns, where each creature executes its species-specific program, potentially moving, turning, or infecting other creatures. The aim is to evolve creatures to maximize the spread of your species.
+Darwin's World is a turn-based simulation where creatures follow species-specific programs. The simulation progresses as each creature takes actions like moving, turning, or infecting other creatures based on its program. The objective is to develop creatures that can outlast others and ensure the survival of their species.
 
 Each creature:
-- Lives in a grid square.
+- Occupies a grid square in the world.
 - Faces one of four directions (up, down, left, or right).
-- Belongs to a species that defines its behavior and color.
+- Belongs to a species, which defines its behavior and appearance.
 
 ### Sample World
 
@@ -21,46 +21,47 @@ Each creature:
 
 ## Project Structure
 
-The project consists of several classes and files:
+The project is composed of several key components:
 
 ### Species Files
-Each species has a text file containing:
+Each species is defined by a text file that includes:
 - **Species Name**: e.g., Flytrap, Rover.
-- **Color**: e.g., green, blue.
-- **Program**: Instructions like `left`, `hop`, `infect`, which define the behavior of the species.
+- **Color**: The display color of the species, e.g., green, blue.
+- **Program**: A set of instructions such as `left`, `hop`, and `infect`, which control the species' behavior during the simulation.
 
-Pre-supplied species:
-- **Flytrap**: Spins in place and infects enemies.
-- **Rover**: Walks in straight lines, infects enemies in front.
-- **Food**: Moves in a square, serves as food for other creatures.
-- **Hop**: Continuously hops forward until blocked.
+Some pre-supplied species include:
+- **Flytrap**: Spins in place and infects nearby creatures.
+- **Rover**: Moves in a straight line and infects creatures in front of it.
+- **Food**: Moves in a square pattern and serves as food for other species.
+- **Hop**: Continuously moves forward unless blocked.
 
 ### Creature Behavior
 
-Each creature follows a program consisting of steps that define its behavior. The possible instructions include:
-- **hop**: Move forward if the square ahead is empty.
-- **left / right**: Turn 90 degrees left or right.
-- **infect**: Infect the creature ahead (if it's an enemy).
-- **conditional instructions**: `ifwall`, `ifempty`, `ifsame`, `ifenemy`, and more, which make the creature act based on conditions.
+Each creature follows a program that consists of multiple steps determining its actions. The available instructions include:
+- **hop**: Moves forward if the square ahead is empty.
+- **left / right**: Turns 90 degrees left or right.
+- **infect**: Infects the creature directly in front, if it's from a different species.
+- **conditional instructions**: Commands like `ifwall`, `ifempty`, `ifsame`, and `ifenemy` allow creatures to perform different actions based on the environment.
 
-Programs are written in species text files, and the game executes these behaviors turn by turn.
+The programs are specified in species text files, and the game processes them for each creature turn by turn.
 
 ### User Interface
 
-The GUI allows users to:
-- **Add Creatures**: Add creatures to the world using species files.
-- **Start Simulation**: Begin a simulation or restart it.
-- **Next Turn**: Process one turn for each creature.
-- **Continue**: Run the simulation automatically until the maximum number of turns is reached (200 turns).
+The graphical interface (GUI) enables users to:
+- **Add Creatures**: Load species files and place creatures in the world.
+- **Start Simulation**: Initialize the world and start a new simulation.
+- **Next Turn**: Manually process the next turn for all creatures.
+- **Continue**: Automatically run the simulation for up to 200 turns.
+
 ---
 
 ## How to Run
 
-1. **Clone** the repository and import it into Eclipse.
+1. **Clone** this repository and import it into your Java IDE (e.g., Eclipse).
 2. Add the provided species files (`Flytrap.txt`, `Rover.txt`, `Food.txt`, etc.) to the `src` directory.
-3. Run the `DarwinGUI.java` class to start the simulation.
-4. Use the GUI to add creatures and run the simulation.
-5. Observe how creatures interact and evolve as the simulation progresses.
+3. Run the `DarwinGUI.java` class to launch the simulation.
+4. Use the GUI to add creatures and start the simulation.
+5. Observe how the creatures behave, interact, and evolve as the simulation progresses.
 
 ---
 
@@ -68,4 +69,4 @@ The GUI allows users to:
 
 - @[annepham1512](https://github.com/annepham1512)
 
----
+This project was completed with the support of the Dickinson College Computer Science faculty.
