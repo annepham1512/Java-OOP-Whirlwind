@@ -1,8 +1,8 @@
-# MineSweeper Project - Lab 4
+# MineSweeper Project
 
 Game Start             |  Game Play
 :-------------------------:|:-------------------------:
-![MineSweeper_Start)](img/image.png)  |  ![](img/image_2.png)
+![MineSweeper_Start](img/image.png)  |  ![](img/image_2.png)
 
 ## Overview
 
@@ -57,13 +57,14 @@ The board state is represented using the following constants:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/lab04-minesweeper
+   ```
 
 2. **Open the Project**: 
     - Open the cloned project in Eclipse or another preferred IDE.
 
 3. **Run the Game**:
-    - Navigate to the MineSweeper.java file and run the main method.
-    - The game window should appear, but note that it will not be fully functional until you implement the MineSweeperBoard class.
+    - Navigate to the `MineSweeper.java` file and run the main method.
+    - The game window should appear, but note that it will not be fully functional until the `MineSweeperBoard` class is implemented.
 
 ---
 
@@ -72,3 +73,5 @@ The board state is represented using the following constants:
 - @[annepham1512](https://github.com/annepham1512)
 
 ---
+
+This project was completed with the support of the Dickinson College Computer Science faculty.
