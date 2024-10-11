@@ -40,7 +40,7 @@ This project is part of a lab assignment for **COMP 132**. It involves developin
 
 This project is part of Lab 5, where we work with interfaces and polymorphism to create shapes that can be drawn and animated on the screen. The final product will be an application that draws a picture or performs animations using shapes.
 
-![Drawable/Scaleable Shapes](lab05-annepham1512/img/image.png)
+![Drawable/Scaleable Shapes](Drawable/Scaleable_Shapes/img/image.png)
 
 ---
 
