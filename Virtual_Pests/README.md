@@ -1,18 +1,17 @@
+# Virtual Pests
 
-# Virtual Pests - Lab 02
-
-This project simulates a "virtual pet," or in this case, a "virtual pest," modeled as a finite state machine. You will be implementing the behaviors of a virtual pet, Fred the fish, and also designing your own custom virtual pet with distinct states and actions.
+This project simulates a "virtual pet," or in this case, a "virtual pest," modeled as a finite state machine. I implemented the behaviors of a virtual pet, Fred the fish, and designed my own custom virtual pet with distinct states and actions.
 
 ---
 
 ## Overview
 
-Virtual pets simulate real-life pet behaviors using states such as **hungry**, **sleepy**, **full**, or **grouchy**, which change based on interactions or the passage of time. Your task in this lab is to:
+Virtual pets simulate real-life pet behaviors using states such as **hungry**, **sleepy**, **full**, or **grouchy**, which change based on interactions or the passage of time. My task in this lab was to:
 
 1. **Part A**: Implement Fred the fish's finite state machine based on given specifications.
-2. **Part B**: Design and implement your own virtual pet with unique behaviors and states.
+2. **Part B**: Design and implement my own virtual pet with unique behaviors and states.
 
-The state of Fred the fish (or your own pest) is updated by the owner's actions such as feeding, petting, or putting the pet to bed. The virtual pet will make sounds and perform actions depending on its state.
+The state of Fred the fish (or my own pest) is updated by the owner's actions such as feeding, petting, or putting the pet to bed. The virtual pet makes sounds and performs actions depending on its state.
 
 ---
 
@@ -25,10 +24,10 @@ The project is divided into two parts:
 - **VirtualPestGUI.java**: Provides the graphical interface for interacting with Fred.
 - **JUnit Tests**: Test cases for Fred's behavior are provided in `VirtualPestTest.java`.
 
-### Part B: Your Own Virtual Pest
-- **OwnVirtualPest.java**: Implements your custom virtual pet with four new states and at least two new actions.
-- **Custom GUI**: Design the graphical interface with your pet's image, sounds, and behaviors.
-- **JUnit Tests**: Write your own tests for each method in the `OwnVirtualPest` class.
+### Part B: My Own Virtual Pest
+- **OwnVirtualPest.java**: Implements my custom virtual pet with four new states and at least two new actions.
+- **Custom GUI**: I designed the graphical interface with my pet's image, sounds, and behaviors.
+- **JUnit Tests**: I wrote my own tests for each method in the `OwnVirtualPest` class.
 
 ---
 
@@ -49,7 +48,7 @@ Fred the fish's behavior is represented by a finite state machine with four stat
 
 ![Fred the Fish FSM](img/image.png)
 
-Your custom pest should also have a finite state machine with at least 4 states and include random transitions.
+My custom pest also has a finite state machine with at least four states and includes random transitions.
 
 ---
 
@@ -59,3 +58,4 @@ Your custom pest should also have a finite state machine with at least 4 states 
 
 ---
 
+This project was completed with the support of the Dickinson College Computer Science faculty.
