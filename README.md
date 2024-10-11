@@ -6,7 +6,7 @@ A collection of challenges related to Object-Oriented Programming (OOP) in Java,
 
 Welcome to the Pong Game project! This project is part of the Object-Oriented Programming Lab, and is designed to introduce fundamental concepts of object-oriented programming through the implementation of a classic Pong game.
 
-![Pong Game Screenshot](lab01-annepham1512/img/image.png)
+![Pong Game Screenshot](Pong_Game/img/image.png)
 
 ---
 
@@ -14,7 +14,7 @@ Welcome to the Pong Game project! This project is part of the Object-Oriented Pr
 
 This project simulates a "virtual pet," or in this case, a "virtual pest," modeled as a finite state machine. You will be implementing the behaviors of a virtual pet, Fred the fish, and also designing your own custom virtual pet with distinct states and actions.
 
-![Fred the Fish FSM](lab02-annepham1512/img/image.png)
+![Fred the Fish FSM](Virtual_Pests/img/image.png)
 
 ---
 
