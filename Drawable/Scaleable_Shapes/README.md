@@ -1,7 +1,7 @@
 # Drawable/Scaleable Shapes using Interfaces
 
 ## Introduction
-In this project, which is part of Lab 5, I explored working with interfaces and polymorphism to create shapes that can be drawn and animated on the screen. The final product is an application that allows drawing pictures or performing animations with different shapes.
+In this project, I explored working with interfaces and polymorphism to create shapes that can be drawn and animated on the screen. The final product is an application that allows drawing pictures or performing animations with different shapes.
 
 ## Overview
 This project focuses on two key interfaces: `Drawable` and `Scaleable`. These interfaces provide a uniform way to handle a variety of shapes—such as circles, rectangles, and lines—allowing them to be drawn and scaled. Additionally, the `DrawableObjectList` class is provided to manage collections of `Drawable` objects, making it easy to perform operations like drawing and scaling on all objects at once.
