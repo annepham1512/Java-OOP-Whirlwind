@@ -1,0 +1,28 @@
+Dog
+blue
+infect
+ifenemy 0
+ifwall 8
+right
+go 1
+ifempty 7
+go 1
+hop
+ifenemy 0
+left
+ifenemy 0
+go 5
+
+
+The flytrap sits in one place and spins.
+It infects anything which comes in front.
+Flytraps do well when they clump.
+ifwall 7
+ifenemy 4
+right
+go 0
+infect
+hop
+go 0
+left
+

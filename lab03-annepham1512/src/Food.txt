@@ -1,0 +1,6 @@
+OodFay
+blue
+left
+go 0
+
+Food just sits there and spins but doesn't infect anyone.

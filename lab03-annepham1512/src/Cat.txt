@@ -1,0 +1,9 @@
+Cat
+yellow
+left
+right
+go 0
+right
+left
+
+The cat sits in one place and spins and does not infect anyone

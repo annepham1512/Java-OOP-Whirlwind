@@ -1,0 +1,15 @@
+Dog2
+black
+ifenemy 3
+right
+go 0
+infect
+ifempty 6
+go 0
+hop
+go 0
+
+
+The dog version 2 is much stronger than the previous version. 
+It sits in one place and spins and infects anything which comes in front.
+After infecting, if the next square is empty, it hops to find new enemy.

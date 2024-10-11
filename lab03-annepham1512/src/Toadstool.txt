@@ -1,0 +1,12 @@
+Toadstool
+yellow
+ifenemy 6
+hop
+ifenemy 6
+left
+ifenemy 6
+go 0
+infect
+go 0
+
+this thing hop, turn left, hop, turn left.... each time check if it can infect.

@@ -1,0 +1,16 @@
+Duck
+green
+hop
+hop
+hop
+hop
+hop
+left
+go 0
+left
+right
+hop
+hop
+
+The duck spins a little and hops around without infecting anybody.
+

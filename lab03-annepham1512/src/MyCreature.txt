@@ -1,0 +1,11 @@
+Bear
+pink
+left
+right
+left
+right
+go 0
+right
+left
+
+The bear sits in one place and spins and does not infect anyone

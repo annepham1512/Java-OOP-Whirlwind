@@ -1,0 +1,7 @@
+Hop
+pink
+hop
+go 0
+
+This just hops forward blindly,
+it's good for testing that your program works at all.

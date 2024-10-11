@@ -1,0 +1,18 @@
+Rover
+red
+ifenemy 10
+ifwall 5
+ifsame 5
+hop
+go 0
+ifrandom 8
+left
+go 0
+left
+go 0
+infect
+go 0
+
+The rover constantly moves forward.  When it
+runs into a wall or another rover, it randomly
+turns left or right.

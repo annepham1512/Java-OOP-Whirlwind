@@ -1,0 +1,21 @@
+Ranger
+blue
+ifenemy 13
+ifempty 4
+ifsame 5
+ifwall 7
+ifrandom 11
+ifrandom 9
+ifrandom 7
+left
+go 0
+right
+go 0
+hop
+go 0
+infect
+go 0
+
+Ranger likes to move around any chance it gets if nothing is in its way
+It likes to explore in many different ways so long as its not running into
+Walls or others of its kind
