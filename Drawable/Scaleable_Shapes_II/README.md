@@ -1,4 +1,4 @@
-# Lab #7 – Drawable/Scaleable Shapes II, Using Inheritance
+Drawable/Scaleable Shapes II, Using Inheritance
 
 ## Introduction
 In this project, which builds on the previous lab, I worked on expanding the collection of shapes by implementing them using inheritance to reduce code repetition. I created new classes (`Line`, `Text`, `Rectangle`, `Square`, `Ellipse`, and `Circle`) that represent various drawable and scaleable shapes. This lab focuses on how to effectively use inheritance and interfaces in Java to create a more efficient and flexible structure for drawing shapes.
