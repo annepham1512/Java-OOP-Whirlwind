@@ -52,33 +52,6 @@ The GUI allows users to:
 - **Start Simulation**: Begin a simulation or restart it.
 - **Next Turn**: Process one turn for each creature.
 - **Continue**: Run the simulation automatically until the maximum number of turns is reached (200 turns).
-
----
-
-## Tasks
-
-1. **Program Class**: Complete the `Program` class which handles the execution of species programs. Write test cases to achieve full statement coverage.
-   
-2. **Creature Class**: Implement the `Creature` class that models the individual creatures in the world. Write test cases to ensure full coverage of all methods.
-
-3. **Design Your Own Creature**:
-   - Create a species file for your custom creature.
-   - Define at least 4 instructions in the program, and use all instruction types (e.g., `ifempty`, `ifenemy`, `go`).
-   - Name your creature file `MyCreature.txt` and place it in the `src` directory.
-
-4. **Lab Report**: Write a report detailing your experience, challenges, and testing outcomes. Include:
-   - Self-evaluation of the assignment.
-   - Explanation of how to add a new instruction to the creature programs.
-   - Investigation of any errors in the simulation (e.g., not getting the correct number of creatures).
-
----
-
-## Testing
-
-- Implement unit tests for both the `Program` and `Creature` classes to ensure that all methods are covered and function correctly.
-- Ensure statement coverage for all implemented methods.
-- Manually verify the print method for correctness.
-
 ---
 
 ## How to Run
@@ -89,26 +62,6 @@ The GUI allows users to:
 4. Use the GUI to add creatures and run the simulation.
 5. Observe how creatures interact and evolve as the simulation progresses.
 
----
-
-## Custom Creatures
-
-You can create your own creatures by creating new text files in the format described above. Follow these steps:
-1. Define the species name and color.
-2. Write the program instructions for your species.
-3. Add your creature to the simulation through the GUI or by editing the `DCRITTERS` field in `DarwinGUI.java`.
-
----
-
-## Submission Instructions
-
-1. **Push** your code and creatures to GitHub.
-2. **Submit** your lab report on Gradescope, including:
-   - Self-assessment.
-   - Your custom creature files.
-   - Test cases and results.
-   - Discussion of potential improvements or errors in the simulation.
-   
 ---
 
 ## Authors

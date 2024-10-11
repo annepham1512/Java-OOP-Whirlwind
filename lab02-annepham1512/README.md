@@ -43,21 +43,6 @@ To run the Virtual Pest simulation:
 
 ---
 
-## Tasks
-
-### Part A: Fred the Fish
-- Implement the `getPestSound()`, `getPestAction()`, and `doAction()` methods.
-- Follow the provided finite state machine to manage Fred's behavior and transitions between states.
-- Write JUnit tests to ensure full coverage of all methods.
-
-### Part B: Custom Virtual Pest
-- Design your own pest with four unique states and owner actions.
-- Implement the `getPestSound()`, `getPestAction()`, and `doAction()` methods for your pet.
-- Ensure the GUI is updated with a unique image for your pet, and modify the interactions accordingly.
-- Write JUnit tests to verify correct behavior of your custom pet.
-
----
-
 ## Finite State Machine
 
 Fred the fish's behavior is represented by a finite state machine with four states and transitions as described below:
@@ -65,25 +50,6 @@ Fred the fish's behavior is represented by a finite state machine with four stat
 ![Fred the Fish FSM](img/image.png)
 
 Your custom pest should also have a finite state machine with at least 4 states and include random transitions.
-
----
-
-## Testing
-
-JUnit tests must be created for both Part A and Part B:
-- **Part A**: Use the provided `VirtualPestTest.java` to test Fred's behavior.
-- **Part B**: Write your own tests for the `OwnVirtualPest` class, ensuring statement coverage for all methods.
-
----
-
-## Submission Instructions
-
-1. Push your code to the GitHub repository.
-2. Submit a lab report on Gradescope, including:
-   - A finite state machine diagram for your custom pest.
-   - Reflections on your design process and challenges faced.
-   - A self-assessment report.
-3. Ensure your lab partner's name is included in the report and all modified files.
 
 ---
 

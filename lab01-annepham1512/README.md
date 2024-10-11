@@ -38,35 +38,11 @@ To run the game:
 
 ---
 
-## Tasks
-
-1. **PongBall Class**: Complete the constructor and methods for ball movement and bouncing. Ensure the ball reflects correctly when hitting the paddles and the edges of the screen.
-2. **PongPaddle Class**: Implement methods to move paddles based on player input.
-3. **PongScore Class**: Create a scoring system to update the players' scores when the ball reaches the wall.
-
----
-
-## Testing
-
-JUnit tests are required for each class:
-- **PongBallTest**: Ensure the ball's movement and behavior are correctly implemented.
-- **PongPaddleTest**: Test paddle movement.
-- **PongScoreTest**: Test score calculation and updating.
-
----
-
 ## Example Game Screen
 
 Here’s an example of what the game looks like when running:
 
 ![Pong Game Screenshot](img/image.png)
-
----
-
-## Submission Instructions
-
-1. Push your changes to the GitHub repository regularly.
-2. Submit your lab report on Gradescope with a reflection on the assignment, including challenges faced and resources used.
 
 ---
 
