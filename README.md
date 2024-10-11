@@ -1,69 +1,71 @@
 # Java_OOP_Whirlwind
 
-A collection of challenges related to Object-Oriented Programming (OOP) in Java, Data Structures and Algorithms, Game Programming, and more.
+A series of projects designed to solidify my understanding of Object-Oriented Programming (OOP) concepts, data structures, algorithms, and game programming in Java.
 
-# #1 – Pong Game
+---
 
-Welcome to the Pong Game project! This project is part of the Object-Oriented Programming Lab, and is designed to introduce fundamental concepts of object-oriented programming through the implementation of a classic Pong game.
+## #1 – Pong Game
+
+This project focuses on the implementation of a classic Pong game using Java's object-oriented programming principles. It was designed to help reinforce fundamental OOP concepts such as encapsulation, inheritance, and polymorphism.
 
 ![Pong Game Screenshot](Pong_Game/img/image.png)
 
 ---
 
-# #2 – Virtual Pests
+## #2 – Virtual Pests
 
-This project simulates a "virtual pet," or in this case, a "virtual pest," modeled as a finite state machine. You will be implementing the behaviors of a virtual pet, Fred the fish, and also designing your own custom virtual pet with distinct states and actions.
+The Virtual Pests project models a virtual pet, using a finite state machine to simulate behaviors. I implemented a virtual fish named Fred, along with a custom-designed virtual pet. The project explores state transitions and actions within a controlled simulation.
 
 ![Fred the Fish FSM](Virtual_Pests/img/image.png)
 
 ---
 
-# #3 – Darwin's World
+## #3 – Darwin's World
 
-This project simulates Darwin's World, a game where creatures inhabit a 2D world, interact, and evolve based on programmed behaviors. Each creature belongs to a species, which defines its color and actions. The goal is to design and program creatures that can survive and spread their species by infecting others.
+Darwin's World simulates an evolutionary environment where creatures interact, evolve, and adapt based on programmed behaviors. Each creature belongs to a species that defines its traits and actions. The goal was to create a robust ecosystem where creatures can survive and dominate.
 
 ![Darwin's World Sample](Darwin's_World/img/image.png)
 
 ---
 
-# #4 – MineSweeper Project
+## #4 – MineSweeper Project
+
+A simplified version of the classic Minesweeper game, developed as part of a lab assignment. The game involves uncovering cells on a grid without hitting hidden mines, applying OOP principles to handle game states, logic, and interactions efficiently.
 
 Game Start             |  Game Play
 :-------------------------:|:-------------------------:
 ![MineSweeper_Start)](MineSweeper/img/image.png)  |  ![MineSweeper_GamePlay](MineSweeper/img/image_2.png)
 
-This project is part of a lab assignment for **COMP 132**. It involves developing a simplified version of the classic **Minesweeper** game using object-oriented programming principles. The game takes place on a grid where some cells contain hidden mines. The player’s goal is to uncover all cells without mines and to flag all the cells that contain mines.
-
 ---
 
-# #5 - Drawable/Scaleable Shapes using Interfaces
+## #5 – Drawable/Scalable Shapes Using Interfaces
 
-This project is part of Lab 5, where we work with interfaces and polymorphism to create shapes that can be drawn and animated on the screen. The final product will be an application that draws a picture or performs animations using shapes.
+This project introduces interfaces and polymorphism in Java by creating shapes that can be drawn and scaled. The shapes were used to animate a picture, demonstrating the power of interfaces in designing flexible and reusable code.
 
 ![Drawable/Scaleable Shapes](Drawable/Scaleable_Shapes/img/image.png)
 
 ---
 
-# #6 – Using the Singleton and Adapter Design Patterns
+## #6 – Singleton and Adapter Design Patterns
 
-This lab provides an opportunity to implement the Singleton and Adapter design patterns. Additionally, the lab introduces you to two Java features that we have not yet studied in detail:
-1. The `enum` keyword, which allows you to define a new data type that enumerates several named options.
-2. Reading data from a file using `BufferedReader`, `FileReader`, and `readLine()`.
-
-These features will not be tested in exams or other homework, so you should be able to use them based on the provided example code without further background reading. It may also be helpful to reference the `designpatterns` folder from the class-examples repository.
+An exploration of two essential design patterns: Singleton and Adapter. I also learned about enums and file I/O in Java, utilizing `BufferedReader` and `FileReader` to process data from external files. This project provided hands-on experience with design patterns and new Java features.
 
 ---
 
-# #7 – Drawable/Scaleable Shapes II, Using Inheritance
+## #7 – Drawable/Scalable Shapes II, Using Inheritance
 
-In the previous lab, you created several shapes that implemented the `Drawable` and `Scaleable` interfaces. You also implemented the `DrawableObjectList`, which was a collection of `Drawable` shapes. In this lab, you will use inheritance to implement a wider variety of shapes with less repetition of code. Specifically, you will implement and test classes named `Line`, `Text`, `Rectangle`, `Square`, `Ellipse`, and `Circle` that represent the corresponding objects.
+Building on the previous lab, this project reduces code duplication by introducing inheritance. I implemented a variety of shapes such as Line, Text, Rectangle, and Circle, each inheriting from a base class. The focus was on code reuse and extending functionality through class hierarchies.
 
 ![Drawable/Scaleable Shapes II](Drawable/Scaleable_Shapes_II/img/image.png)
 
 ---
 
-# #8 – Recursion
+## #8 – Recursion
 
-In this lab, you will be developing recursive definitions for several problems and then implementing those recursive definitions as Java programs.
+This project explores recursive solutions to various problems, including generating fractal shapes like the Sierpinski triangle. It helped deepen my understanding of recursion and its applications in problem-solving.
 
 ![The Sierpinski triangle](Recursion/img/image.png)
+
+---
+
+This reflects my journey through Object-Oriented Programming, game development, and algorithmic challenges in Java.
