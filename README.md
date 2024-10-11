@@ -58,7 +58,7 @@ These features will not be tested in exams or other homework, so you should be a
 
 In the previous lab, you created several shapes that implemented the `Drawable` and `Scaleable` interfaces. You also implemented the `DrawableObjectList`, which was a collection of `Drawable` shapes. In this lab, you will use inheritance to implement a wider variety of shapes with less repetition of code. Specifically, you will implement and test classes named `Line`, `Text`, `Rectangle`, `Square`, `Ellipse`, and `Circle` that represent the corresponding objects.
 
-![Drawable/Scaleable Shapes II](lab-07-annepham1512/img/image.png)
+![Drawable/Scaleable Shapes II](Drawable/Scaleable_Shapes_II/img/image.png)
 
 ---
 
