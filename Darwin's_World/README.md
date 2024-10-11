@@ -1,4 +1,4 @@
-# Darwin's World - Lab 03
+# Darwin's World
 
 This project simulates a game called Darwin's World, where creatures inhabit a 2D grid, interact with their environment, and evolve based on predefined behaviors. Each creature belongs to a species, which defines its color and actions. The goal of the simulation is to create species that can survive and spread by infecting other creatures.
 
