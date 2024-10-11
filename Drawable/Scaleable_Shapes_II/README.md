@@ -1,30 +1,79 @@
 # Lab #7 – Drawable/Scaleable Shapes II, Using Inheritance
 
-
-
 ## Introduction
-In the previous lab, you created several shapes that implemented the `Drawable` and `Scaleable` interfaces. You also implemented the `DrawableObjectList`, which was a collection of `Drawable` shapes. In this lab, you will use inheritance to implement a wider variety of shapes with less repetition of code. Specifically, you will implement and test classes named `Line`, `Text`, `Rectangle`, `Square`, `Ellipse`, and `Circle` that represent the corresponding objects.
+In this project, which builds on the previous lab, I worked on expanding the collection of shapes by implementing them using inheritance to reduce code repetition. I created new classes (`Line`, `Text`, `Rectangle`, `Square`, `Ellipse`, and `Circle`) that represent various drawable and scaleable shapes. This lab focuses on how to effectively use inheritance and interfaces in Java to create a more efficient and flexible structure for drawing shapes.
+
+## Overview
+This lab demonstrates the use of the `Drawable` and `Scaleable` interfaces, as well as an inheritance hierarchy to model different shapes. By inheriting from a base `Point` class and building subclasses for each shape, I was able to implement a wide variety of shapes with minimal code duplication.
+
+The `DrawableObjectList` class from the previous lab was also extended to manage collections of these shapes, making it easier to perform bulk operations like drawing or scaling. The goal was to create shapes that could be displayed in a static picture or animated on the screen.
+
+---
+
+## Getting Started
+1. Accept the assignment from GitHub Classroom, clone the repository, and import the project into Eclipse.
+2. Ensure there are no compilation errors by adding JUnit5 to your project’s build path if necessary.
+
+---
+
+## Design
+The `Point` class is provided as the base class, representing a single pixel at a given (`x`, `y`) coordinate, and it implements the `Drawable` interface. From this base class, I created several subclasses to represent lines, rectangles, ellipses, and more.
+
+Each class in this hierarchy inherits as much functionality as possible from its parent class. For example, the `Circle` class is a subclass of `Ellipse`, which itself is a subclass of `Point`. This means that `Circle` inherits the methods and properties of `Point` and `Ellipse`, while only overriding or adding new functionality specific to circles.
+
+### Key Components:
+- **Point**: Represents a point in 2D space and implements the `Drawable` interface.
+- **Line**: A subclass of `Point` that represents a line segment between two points.
+- **Rectangle** and **Square**: Subclasses that represent rectangular and square shapes.
+- **Ellipse** and **Circle**: Represent oval and circular shapes, respectively, with scaling functionality.
+
+The inheritance hierarchy reduces code duplication and makes it easier to manage shared behavior among similar shapes.
+
+---
+
+## The Assignment
+In this lab, I implemented and tested the following classes:
+- **Line**
+- **Text**
+- **Rectangle**
+- **Square**
+- **Ellipse**
+- **Circle**
+
+Each class is a subclass of `Point` (or one of its subclasses) and implements both `Drawable` and/or `Scaleable` interfaces as needed. After implementing each class, I tested them with JUnit to ensure functionality. Finally, I created a program that displays a picture or animation using at least one of each shape.
+
+### Key Concepts:
+- **Inheritance**: Sharing behavior across classes to reduce redundancy.
+- **Polymorphism**: Treating all shapes as `Drawable` objects, allowing them to be managed and drawn uniformly.
+- **JUnit Testing**: Ensuring that the new functionality works as expected, especially for new or overridden methods in the subclasses.
+
+---
+
+## How to Run
+1. **Clone** the repository from GitHub Classroom and import it into Eclipse.
+2. **Add JUnit5** to the build path if necessary.
+3. **Test the classes** by running the provided JUnit test cases.
+4. **Run the program** to see a picture or animation using the shapes (`Line`, `Rectangle`, `Square`, `Ellipse`, `Circle`, and `Text`).
+
+---
+
+## Example Game Screen
+
+Here’s an example of what the program looks like when running:
 
 ![Drawable/Scaleable Shapes II](img/image.png)
 
-## Getting Started
-1. Accept the assignment from GitHub Classroom, clone the repository, and import your project into Eclipse.
-2. Remove any compilation errors in the starter code by adding JUnit5 to your project’s build path.
-
-## Design
-
-Provided with the lab is the `Point` class that implements the `Drawable` interface, familiar from the previous lab. A `Point` represents a single colored pixel at a given (`x`, `y`) coordinate. The `Point` class provides implementations of all the methods in the `Drawable` interface. It also contains two methods, `move()` and `translate()`, that change the position of the point in different ways (see the documentation in the `Point` class for more information). Each of the new classes that you create will be a subclass of `Point` (or a subclass of one of its subclasses).
-
-The `Point` class and all of its subclasses form what is called an inheritance hierarchy. The inheritance hierarchy that you will be implementing can be represented visually as shown below. The `Drawable` and `Scaleable` interfaces are also shown. A solid arrow from one class to another indicates a subclass/superclass relationship (e.g., `Line` is a subclass of `Point`). Dashed lines indicate that a class implements an interface (e.g., `Ellipse` implements the `Scaleable` interface). Note that classes implicitly inherit all interfaces of their parent class (after all, interfaces declare public methods). Thus, if `Ellipse` implements `Scaleable`, then `Circle` does, too, without the need to explicitly write `implements` in the `Circle` class.
-
-## The Assignment
-Your assignment for this lab is to implement and test classes named `Line`, `Text`, `Rectangle`, `Square`, `Ellipse`, and `Circle` that represent the corresponding objects. Once they are complete, you must create another class that displays a picture or animation using at least one of each type of object.
-
-The classes that you are creating must be implemented using the inheritance hierarchy described above in the Design section. Each class should inherit as much functionality as possible from its superclass. Each class should also override any inherited methods that need to behave differently in the subclass. Every class must have a Javadoc comment at the top describing the purpose of the class. Every method and constructor in every class must have a Javadoc comment describing its functionality. Each class must also have an associated JUnit test class that tests its functionality (although, as with the previous lab, `draw()` methods need not be tested). Note that once a piece of functionality is tested in a superclass, it does not need to be tested again in any subclasses. Thus, for subclasses, only new and overridden methods need to be tested.
+---
 
 ## Submitting Your Solution
-As usual, push your code to GitHub regularly for backup purposes and push your final version to submit the assignment. Additionally, as usual, submit your lab report to Gradescope via the link on Moodle. The lab report for this lab will consist only of the self-assessment report.
+As I progressed, I regularly pushed code to GitHub for backup. For final submission, I pushed the complete solution and submitted a self-assessment report on Gradescope as required.
+
+---
 
 ## Authors
 
 - @[annepham1512](https://github.com/annepham1512)
+
+---
+
+This project was completed with the support of the Dickinson College Computer Science faculty.
