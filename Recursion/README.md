@@ -19,7 +19,7 @@ I provided a recursive definition for computing \(a^b\) (where both \(a\) and \(
 I improved a previously studied recursive approach to determine if a string is a palindrome, avoiding the creation of new `String` objects. Instead of using `substring()`, I utilized the `charAt()` method and passed additional parameters to retain the original string during recursion. I modified the `isPalindrome()` method in the `Palindrome.java` file and created test cases for each base and recursive scenario.
 
 ### 4. Sierpinski Triangle
-I implemented a recursive program to generate the Sierpinski triangle, a fractal pattern described by Polish mathematician Waclaw Sierpinski. I developed the `drawSierpinski()` method in the `SierpinskiPanel` class. The triangle can be visualized by running the `main()` method in the `SierpinskiGUI` class, which displays an order 6 Sierpinski Triangle. No JUnit test was required for this class.
+I implemented a recursive program to generate the Sierpinski triangle, a fractal pattern described by Polish mathematician Waclaw Sierpinski. I developed the `drawSierpinski()` method in the `SierpinskiPanel` class. The triangle can be visualized by running the `main()` method in the `SierpinskiGUI` class, which displays an order 6 Sierpinski Triangle. 
 
 ![The Sierpinski triangle](img/image.png)
 
