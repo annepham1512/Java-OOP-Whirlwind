@@ -30,7 +30,7 @@ This project simulates Darwin's World, a game where creatures inhabit a 2D world
 
 Game Start             |  Game Play
 :-------------------------:|:-------------------------:
-![MineSweeper_Start)](lab04-annepham1512/img/image.png)  |  ![MineSweeper_GamePlay](lab04-annepham1512/img/image_2.png)
+![MineSweeper_Start)](MineSweeper/img/image.png)  |  ![MineSweeper_GamePlay](MineSweeper/img/image_2.png)
 
 This project is part of a lab assignment for **COMP 132**. It involves developing a simplified version of the classic **Minesweeper** game using object-oriented programming principles. The game takes place on a grid where some cells contain hidden mines. The player’s goal is to uncover all cells without mines and to flag all the cells that contain mines.
 
